@@ -167,7 +167,22 @@ a.button span {
 
 .icon {
   float: left;
+  width: 150px; height: 150px;
   margin: 0 1em 0.5em 0;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  border-radius: 23.4px;
+}
+
+.screenshots {
+  text-align: center;
+}
+.screenshots div {
+  display: inline-block;
+}
+.screenshots img {
+  margin: 0 2em;
+  -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  border-radius: 2px;
 }
 
 code, pre {

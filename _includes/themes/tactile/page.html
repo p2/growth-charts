@@ -5,6 +5,17 @@
   {% endif %}
 </header>
 
+{% if page.appstore || page.github %}
+<section id="downloads" class="clearfix">
+	{% if page.appstore %}
+	<a href="{{ page.appstore }}" id="view-on-appstore" class="button"><span>Download .tar.gz</span></a>
+	{% endif %}
+	{% if page.github %}
+	<a href="{{ page.github }}" id="view-on-github" class="button"><span>View on GitHub</span></a>
+	{% endif %}
+</section>
+{% endif %}
+
 <hr />
 
 <section id="main_content">{{ content }}</section>
