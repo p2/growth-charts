@@ -1,29 +1,9 @@
 Pediatric Growth Charts
 =======================
 
-Pediatric growth charts app by Boston Children's Hospital
+![icon](Icon.png)
 
-<img src="Icon.png" alt="" style="float:left; margin:0 1em 0.5em 0;"> Whether you are a parent caring for your own child or a pediatrician, this growth charts app is for you! Developed as part of a research project at [Boston Children's Hospital][bch], you can track your childrens' growth over time and display the data points on any of the included WHO and CDC charts. There is also a percentile calculator for quick lookup  of weight, length, head circumference and BMI percentiles in case you just want to know the percentile of today's measurement. 👶
-
-Included Charts
----------------
-
-The app currently includes the official growth charts from these institutions:
-
-* [World Health Organization][who]
-  * 0 - 24 months (weight, height and head circumference)
-  * 2 - 5 years (weight and height)
-  * 5 - 10 years (weight)
-  * 5 - 19 years (height and BMI)
-
-* [Centers for Disease Control and Prevention][cdc] (US)
-  * 0 - 36 months (weight, height and head circumference)
-  * 2 - 20 years (weight, height and BMI)
-
-Data Storage
-------------
-
-You can add as many children and measurements to the built-in database as you like. The data is encrypted -- if you have a passcode on your device -- meaning it is secure should you lose the device. This is your data, it doesn't leave the app.
+The website for this project [can be found here](http://p2.github.com/growth-charts/index/).
 
 
 
