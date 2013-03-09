@@ -7,7 +7,7 @@ gallery: "png"
 ---
 {% include JB/setup %}
 
-[« main page](/index)
+[« main page](../index)
 
 
 iPad
@@ -22,4 +22,4 @@ iPhone
 
 {% for image in page.gallery_items %}{% if image.url contains "iPhone" %}<a class="screenshot" href="{{ image.url }}"><img src="{{ image.thumb }}" alt="" /><br />{{ image.name }}</a>{% endif %}{% endfor %}
 
-[« main page](/index)
+[« main page](../index)

@@ -23,7 +23,7 @@ There is also a **percentile calculator** for quick percentile lookup in case yo
 	</a>
 </div>
 
-For more screenshots visit our [screenshots page](/screenshots).
+For more screenshots visit our [screenshots page](../screenshots).
 
 
 Sharing
