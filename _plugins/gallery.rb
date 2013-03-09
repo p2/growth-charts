@@ -33,7 +33,7 @@ module Jekyll
         Dir.glob(search).select {|image| ! image.include? "-thumb.#{page.data['gallery']}" and ! image.include? "@2x.#{page.data['gallery']}"}.sort
       end
       items = images.map {|image| {
-        'url' => (File.join base, image),
+        'url' => image,
         'thumb' => image.gsub(/\.(#{page.data['gallery']})$/, '-thumb.\1'),
         'name' => image.gsub(/^\d+_+/, '').gsub(/\.#{page.data['gallery']}$/, '').gsub(/_+/, ' ')
       }}
