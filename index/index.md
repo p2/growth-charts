@@ -13,11 +13,11 @@ There is also a **percentile calculator** for quick percentile lookup in case yo
 
 
 <div class="screenshots">
-	<a class="screenshot" href="/screenshots">
+	<a class="screenshot" href="../screenshots">
 		<img src="iPhone.png" alt="iPhone Screenshot" /><br />
 		iPhone
 	</a>
-	<a class="screenshot" href="/screenshots">
+	<a class="screenshot" href="../screenshots">
 		<img src="iPad.png" alt="iPad Screenshot" /><br />
 		iPad
 	</a>
