@@ -5,7 +5,9 @@ tagline: An iOS app to track child growth
 ---
 {% include JB/setup %}
 
-Whether <img class="icon" src="images/icon.png" alt="" /> you are a parent caring for your own child or a pediatrician, **this growth charts app is for you!** Developed as part of a research project at [Boston Children's Hospital][bch], you can track your childrens' growth over time and display the data points on any of the included WHO and CDC charts. There is also a percentile calculator for quick lookup  of weight, length, head circumference and BMI percentiles in case you just want to know the percentile of today's measurement. 👶
+Whether <img class="icon" src="images/icon.png" alt="" /> you are a parent caring for your own child or a pediatrician, **this growth charts app is for you!**
+
+Developed as part of a research project at [Boston Children's Hospital][bch], you can track your childrens' growth over time and display the data points on any of the included WHO and CDC charts. There is also a percentile calculator for quick lookup  of weight, length, head circumference and BMI percentiles in case you just want to know the percentile of today's measurement. 👶
 
 Screenshots
 -----------
@@ -28,13 +30,13 @@ Included Charts
 
 The app currently includes the official growth charts from these institutions:
 
-* [World Health Organization][who]
+* World Health Organization ([WHO])
   * 0 - 24 months (weight, height and head circumference)
   * 2 - 5 years (weight and height)
   * 5 - 10 years (weight)
   * 5 - 19 years (height and BMI)
 
-* [Centers for Disease Control and Prevention][cdc] (US)
+* Centers for Disease Control and Prevention ([CDC])
   * 0 - 36 months (weight, height and head circumference)
   * 2 - 20 years (weight, height and BMI)
 

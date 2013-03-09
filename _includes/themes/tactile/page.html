@@ -1,8 +1,15 @@
 <header>
-  <h1>{{ page.title }}</h1>
-  {% if page.tagline %}
-  <h2>{{ page.tagline }}</h2>
-  {% endif %}
+	<h1>{{ page.title }}</h1>
+	{% if page.tagline %}
+	<h2>{{ page.tagline }}</h2>
+	{% endif %}
+	
+	<a href="http://chip.org/" target="_blank" title="Children's Hospital Informatics Program">
+		<img src="images/chip.png" alt="" style="width: 32px; height: 34px;" />
+	</a>
+	<a href="http://childrenshospital.org/" target="_blank" title="Boston Children's Hospital">
+		<img src="images/childrens.png" alt="" />
+	</a>
 </header>
 
 {% if page.appstore || page.github %}

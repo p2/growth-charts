@@ -66,9 +66,11 @@ a:hover {
 header {
   padding-top: 35px;
   padding-bottom: 25px;
+  text-align: right;
 }
 
 header h1 {
+  text-align: left;
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
@@ -77,6 +79,7 @@ header h1 {
 }
 
 header h2 {
+  text-align: left;
   letter-spacing: -1px;
   font-size: 24px;
   color: #aaa;
@@ -84,9 +87,18 @@ header h2 {
   line-height: 1.3;
 }
 
+header img {
+  margin-right: 1em;
+}
+
 #container {
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
   min-height: 595px;
+  background-image: -webkit-gradient(radial, center 130px, center 630px, from(white), to(rgba(255,255,255,0)));          /* Safari < 5.0 */
+  background-image: -webkit-radial-gradient(center 130px, circle closest-side, white 5%, rgba(255,255,255,0) 500px);
+  background-image: -moz-radial-gradient(center 130px, circle closest-side, white 5%, rgba(255,255,255,0) 500px);
+  background-image: -ms-radial-gradient(center 130px, circle closest-side, white 5%, rgba(255,255,255,0) 500px);
+  background-image: -o-radial-gradient(center 130px, circle closest-side, white 5%, rgba(255,255,255,0) 500px);
+  background-image: radial-gradient(center 130px, circle closest-side, white 5%, rgba(255,255,255,0) 500px);
 }
 
 .inner {
@@ -170,7 +182,7 @@ a.button span {
   width: 150px; height: 150px;
   margin: 0 1em 0.5em 0;
   -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  border-radius: 23.4px;
+  -webkit-border-radius: 23.4px; -moz-border-radius: 23.4px; border-radius: 23.4px;
 }
 
 .screenshots {
@@ -182,7 +194,7 @@ a.button span {
 .screenshots img {
   margin: 0 2em;
   -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.5); -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.5); box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-  border-radius: 2px;
+  -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;
 }
 
 code, pre {
