@@ -6,12 +6,12 @@ The branch `gh-pages` contains the generated site to be hosted on GitHub. We use
     git checkout gh-pages-jekyll
     git pull
     <edit along>
-    jekyll
+    jekyll --safe
     git commit
 
-Now this is tricky, we need the plugin to run, meaning we can't use `--safe`, but we also need all links to not be relative since that doesn't seem to work with GitHub. So what to do?? Cherry-picking commits cannot be what we want.
+Now this is tricky, we need the plugin to run, meaning we can't use `--safe`, but we also need all links to not be relative since that doesn't seem to work with GitHub. So what to do?? Cherry-picking commits cannot be what we want, but for now this is what we do. Just remember to discard the changes made to the screenshot gallery if the `--safe` switch was on.
 
-Anyway, then switch to the `gh-pages` branch and copy the generated page over from `_site` and commit:
+Then switch to the `gh-pages` branch and copy the generated page over from `_site` and commit:
 
     git checkout gh-pages
     rsync -a _site/ ./
