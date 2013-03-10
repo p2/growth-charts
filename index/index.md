@@ -5,9 +5,7 @@ tagline: An iOS app to track child growth
 ---
 {% include JB/setup %}
 
-<img class="icon" src="icon.png" alt="" /> Whether you are a parent caring for your own child or a pediatrician, this growth charts app is for you!
-
-Developed as part of a research project at [Boston Children's Hospital][bch], you can track your childrens' growth over time and display the data points on any of the included WHO and CDC charts. You can track **height**, **weight**, **head circumference** and **BMI**. The latter is automatically calculated from height and weight.
+<img class="icon" src="icon.png" alt="" /> Whether you are a **parent** caring for your own child or a **pediatrician**, this growth charts app is for you! It allows you to track childrens' growth over time and display the data points on any of the included WHO and CDC growth charts. You can track **height**, **weight**, **head circumference** and **BMI** and determine the corresponding percentiles.
 
 There is also a **percentile calculator** for quick percentile lookup in case you just want to know the percentile of today's measurements.
 
@@ -26,6 +24,12 @@ There is also a **percentile calculator** for quick percentile lookup in case yo
 For more screenshots visit our [screenshots page](../screenshots).
 
 
+Data Storage
+------------
+
+You can add as many children and measurements to the built-in database as you like. The data is encrypted – if you have a passcode on your device – meaning it is secure should you lose the device.
+
+
 Sharing
 -------
 
@@ -35,23 +39,17 @@ The measurements are directly added to the growth chart PDFs. You can email thes
 Included Charts
 ---------------
 
-The app currently includes the official growth charts from these institutions:
+The app currently includes 32 official growth charts from these institutions:
 
-* World Health Organization ([WHO])
+* **World Health Organization** ([WHO])
   * 0 - 24 months (weight, height and head circumference)
   * 2 - 5 years (weight and height)
   * 5 - 10 years (weight)
   * 5 - 19 years (height and BMI)
 
-* Centers for Disease Control and Prevention ([CDC])
+* **Centers for Disease Control and Prevention** ([CDC])
   * 0 - 36 months (weight, height and head circumference)
   * 2 - 20 years (weight, height and BMI)
-
-
-Data Storage
-------------
-
-You can add as many children and measurements to the built-in database as you like. The data is encrypted -- if you have a passcode on your device -- meaning it is secure should you lose the device. This is your data, it doesn't leave the app.
 
 
 Requirements
