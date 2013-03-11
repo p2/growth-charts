@@ -27,7 +27,7 @@ For more screenshots visit our [screenshots page](../screenshots).
 Data Storage
 ------------
 
-You can add as many children and measurements to the built-in database as you like. The data is encrypted – if you have a passcode on your device – meaning it is secure should you lose the device.
+You can add as many children and measurements to the built-in database as you like. The data is encrypted – if you have a passcode on your device – meaning it is secure should you lose the device. Please also see our [privacy policy](../privacy-policy).
 
 
 Sharing

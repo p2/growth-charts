@@ -34,6 +34,7 @@ module Jekyll
       end
       items = images.map {|image| {
         'url' => image,
+#        'url' => (File.join base, image),
         'thumb' => image.gsub(/\.(#{page.data['gallery']})$/, '-thumb.\1'),
         'name' => image.gsub(/^\d+_+/, '').gsub(/\.#{page.data['gallery']}$/, '').gsub(/_+/, ' ')
       }}
