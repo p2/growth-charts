@@ -52,6 +52,16 @@ The app currently includes 32 official growth charts from these institutions:
   * 2 - 20 years (weight, height and BMI)
 
 
+Units
+-----
+
+Whether you're used to the **metric system** and have all data available in centimeter and kilogram or whether you're in the US and using **imperial units**, Charts has got you covered. You can switch the units you want to use for input and display right from the keyboard when you enter data or from a separate screen:
+
+<div class="screenshots">
+	<img src="units.png" alt="Unit Switching" />
+</div>
+
+
 Requirements
 ------------
 
