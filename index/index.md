@@ -67,19 +67,29 @@ These units will be saved as your preferred units. You can also change those uni
 Requirements
 ------------
 
-To run this app you will need a device running **iOS version 6.0** or newer.
+To run this app you will need a device running **iOS version 6.0** or newer. 👶
 
 
 
 Feedback & Support
 ==================
 
-If you are having problems with the app or have suggestions, head over [to the issue page][issues] and let us know! 👶
+If you are having problems with the app or have suggestions, head over [to the issue page][issues] and let us know!
+
+You can also get ahold of me over at [Twitter][].
+
+
+Acknowledgements
+================
+
+This work was supported by a fellowship from the [Swiss National Science Foundation][snf] in scope of the project [Benefits of an Open Electronic Health Record Programming Interface][snf-project]. The app was built at [CHIP][] at [Boston Children's Hospital][bch].
 
 
 [bch]: http://childrenshospital.org
 [who]: http://www.who.int
 [cdc]: http://www.cdc.gov
 [chip]: http://www.chip.org
-[snf]: http://www.snf.ch
+[twitter]: https://twitter.com/phaseofmatter
 [issues]: https://github.com/p2/growth-charts/issues
+[snf]: http://www.snf.ch
+[snf-project]: http://p3.snf.ch/project-144834
