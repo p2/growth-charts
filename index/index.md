@@ -55,11 +55,13 @@ The app currently includes 32 official growth charts from these institutions:
 Units
 -----
 
-Whether you're used to the **metric system** and have all data available in centimeter and kilogram or whether you're in the US and using **imperial units**, Charts has got you covered. You can switch the units you want to use for input and display right from the keyboard when you enter data or from a separate screen:
+Whether you're used to the **metric system** and have all data available in centimeter and kilogram or whether you're in the US and using **imperial units**, Charts has got you covered. You can switch the units you want to use for input right from the keyboard:
 
 <div class="screenshots">
 	<img src="units.png" alt="Unit Switching" />
 </div>
+
+These units will be saved as your preferred units. You can also change those units from a dedicated list when viewing your child's measurements.
 
 
 Requirements
