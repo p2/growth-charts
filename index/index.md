@@ -2,6 +2,7 @@
 layout: page
 title: Pediatric Growth Charts
 tagline: An iOS app to track child growth
+appstore: http://www.appstore.com/pediatricgrowthchartsbybostonchildrenshospital
 ---
 {% include JB/setup %}
 
