@@ -112,6 +112,7 @@ header img {
 
 #downloads {
   margin-bottom: 40px;
+  text-align: center;
 }
 
 a.button {
@@ -175,6 +176,11 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+}
+#view-on-appstore {
+  display: inline-block;
+  width: 135px; height: 40px;
+  background: transparent url(../images/app-store.png) top left no-repeat;
 }
 
 .icon {
