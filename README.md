@@ -13,9 +13,11 @@ Feedback & Support
 If you are having problems with the app or have suggestions, head over [to the issue page][issues] and let us know!
 
 
-[bch]: http://childrenshospital.org
-[who]: http://www.who.int
-[cdc]: http://www.cdc.gov
-[chip]: http://www.chip.org
-[snf]: http://www.snf.ch
+Growth Chart Data
+=================
+
+Check out [the accompanying JSON growth charts data project][growth-json] that defines data files describing the plotting regions on growth chart PDFs.
+
+
 [issues]: https://github.com/p2/growth-charts/issues
+[growth-json]: https://github.com/p2/growth-charts-json
