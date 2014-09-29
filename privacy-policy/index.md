@@ -8,13 +8,18 @@ description: "Pediatric Growth Charts App"
 
 [« main page](../index)
 
-The measurement data you add to your **Charts** app is only stored locally on the device. This data is encrypted by the operating system **if you have a passcode set** on your device. At no point does the data leave the device, except when you yourself print or email growth chart PDFs from within the app. This means that neither we at Boston Children's Hospital nor Apple can glimpse at your data. This is your private data.
+The measurement data you add to your **Charts** app is only stored locally on the device.
+This data is encrypted by the operating system **if you have a passcode set** on your device.
+At no point does the data leave the device, except when you yourself print, email or otherwise share growth chart PDFs from within the app.
+This means that neither we at Boston Children's Hospital nor Apple can glimpse at your data.
+This is your private data.
 
 
 Cloud Storage
 -------------
 
-The app currently does not offer online (_“cloud”_) data storage, but we might add this feature in the future. Should we add this feature we will **not** automatically transition you to cloud storage but will give you the opportunity to do so or keep your data locally.
+The app currently does not offer online (_“cloud”_) data storage, but we might add this feature in the future.
+Should we add this feature we will **not** automatically transition you to cloud storage but will give you the opportunity to do so or keep your data locally.
 
 
 User Details

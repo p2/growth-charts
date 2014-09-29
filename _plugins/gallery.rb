@@ -10,6 +10,7 @@
 # {
 #   'url': <image URL>,
 #   'thumb': <image-URL for "-thumb" files>,
+#   'thumb2x': <image-URL for "-thumb" files at double resolution>,
 #   'name': <image filename with underscores converted to space and numbers removed>
 # }
 # the "-thumb" thing is only string manipulation, if you don't use it, fine,
@@ -36,9 +37,10 @@ module Jekyll
         'url' => image,
 #        'url' => (File.join base, image),
         'thumb' => image.gsub(/\.(#{page.data['gallery']})$/, '-thumb.\1'),
+        'thumb2x' => image.gsub(/\.(#{page.data['gallery']})$/, '-thumb@2x.\1'),
         'name' => image.gsub(/^\d+_+/, '').gsub(/\.#{page.data['gallery']}$/, '').gsub(/_+/, ' ')
       }}
-      page.data = page.data.deep_merge 'gallery_items' => items
+      page.data = Utils.deep_merge_hashes(page.data, 'gallery_items' => items)
     end
   end
 end
