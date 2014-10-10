@@ -1,11 +1,10 @@
 Pediatric Growth Charts
 =======================
 
-![icon](Icon.png)
+<img src="Icon.png" srcset="Icon.png 1x, Icon@2.png 2x" style="float:left; width:150px; height:150px;">
+The main website for this project [can be found here](http://p2.github.com/growth-charts/index/).
 
-The website for this project [can be found here](http://p2.github.com/growth-charts/index/).
-
-
+<div style="clear:left;"> </div>
 
 Feedback & Support
 ==================
