@@ -30,6 +30,7 @@ Jekyll is a Ruby gem, and Ruby no longer is preinstalled in OS X (as of Maverick
 So to run `jekyll`:
 
     brew install ruby
-    sudo gem install jekyll
+    gem install jekyll
+    gem install redcarpet
 
 

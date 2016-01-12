@@ -32,11 +32,13 @@ Data Storage
 
 You can add as many children and measurements to the built-in database as you like.
 The data is encrypted – if you have a passcode on your device – meaning it is secure should you lose the device.
+Speaking of losing your device, we encourage you to _regularly backup_ your data, which you can do from within the app via the **share** button.
+
 Please also see our [privacy policy](../privacy-policy).
 
 
-Sharing
--------
+Sharing & Backup
+----------------
 
 The measurements are directly added to the growth chart **PDF**s.
 You can email these PDFs, print them out (if you have an AirPrint enabled printer nearby) or share them with other means provided by iOS, such as storing into your Dropbox or box.com.
@@ -45,7 +47,7 @@ You can also export the data, either per kid or all at once, to a **spreadsheet 
 This can either be done directly on your iOS device, you can email those files or even better store them directly into Dropbox or box.com to have them sync automatically to your desktop computer.
 
 Finally you can **export the data for re-import** into Charts on another iOS device of yours.
-While intended for backup purposes, you can also use it repeatedly to synchronize data between your devices; new data entered on one device will be added to your existing children on the other.
+While intended for **backup** purposes, you can also use it repeatedly to **synchronize** data between your devices; new data entered on one device will be added to your existing children on the other.
 
 
 Included Charts
